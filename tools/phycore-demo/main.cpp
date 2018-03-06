@@ -1,16 +1,18 @@
+#include <iostream>
 #include <phycore/phycore.h>
+using namespace phycore;
 
 int main(int argc, const char* argv[])
 {
-	if (!::OctoonInit(argv[0], ""))
-		return 1;
+	PcWorld world(math::Vector3(0,0,-9.8));
+	PcMaterial* m = world.createMaterial(PcShapeBall(math::Vector3(0,0,0), 1));
+	PcBody* body = world.createBody(math::Vector3(0,0,0), m);
 
-	if (::OctoonOpenWindow("Octoon Studio", 1376, 768))
+	for(int i=0;i<100;++i)
 	{
-		while (!::OctoonIsQuitRequest())
-			::OctoonUpdate();
+		world.simulate(0.01f);
+		std::cout<<body->getPosition()<<std::endl;
 	}
 
-	::OctoonTerminate();
 	return 0;
 }
