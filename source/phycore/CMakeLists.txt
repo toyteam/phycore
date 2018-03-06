@@ -4,16 +4,16 @@ SET(HEADER_PATH ${PHYCORE_PATH_HEADER})
 SET(SOURCE_PATH ${PHYCORE_PATH_SOURCE}/${LIB_NAME})
 
 SET(PHYCORE_LIST
+    ${HEADER_PATH}/PhycoreBody.h
+    ${SOURCE_PATH}/PhycoreBody.cpp
+    ${HEADER_PATH}/PhycoreWorld.h
+    ${SOURCE_PATH}/PhycoreWorld.cpp
+    ${HEADER_PATH}/PhycoreMaterial.h
+    ${SOURCE_PATH}/PhycoreMaterial.cpp
+    ${HEADER_PATH}/PhycoreShape.h
+    ${SOURCE_PATH}/PhycoreShape.cpp
 )
-SOURCE_GROUP("system\\app" FILES ${PHYCORE_LIST})
-
-SET(BASE_FEATURES_LIST
-    ${HEADER_PATH}/transform_component.h
-    ${SOURCE_PATH}/transform_component.cpp
-    ${HEADER_PATH}/game_base_features.h
-    ${SOURCE_PATH}/game_base_features.cpp
-)
-SOURCE_GROUP("system\\base" FILES ${BASE_FEATURES_LIST})
+SOURCE_GROUP("system\\core" FILES ${PHYCORE_LIST})
 
 INCLUDE_DIRECTORIES(${PHYCORE_PATH_DEPENDENCIES}/eigen)
 
