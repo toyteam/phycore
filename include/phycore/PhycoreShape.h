@@ -5,7 +5,9 @@ namespace phycore
 {
     class PcShape
     {
-
+	public:
+		PcShape();
+		virtual ~PcShape();
     };
 }
 

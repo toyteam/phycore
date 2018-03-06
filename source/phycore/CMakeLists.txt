@@ -12,6 +12,7 @@ SET(PHYCORE_LIST
     ${SOURCE_PATH}/PhycoreMaterial.cpp
     ${HEADER_PATH}/PhycoreShape.h
     ${SOURCE_PATH}/PhycoreShape.cpp
+    ${HEADER_PATH}/PhycoreCollisionInfo.h
 )
 SOURCE_GROUP("system\\core" FILES ${PHYCORE_LIST})
 
