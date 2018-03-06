@@ -1,7 +1,7 @@
-#include <octoon/math/mathutil.h>
+#include <phycore/math/mathutil.h>
 #include <time.h>
 
-namespace octoon
+namespace phycore
 {
 	namespace math
 	{

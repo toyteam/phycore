@@ -1,13 +1,13 @@
-﻿#ifndef OCTOON_MATHUTIL_H_
-#define OCTOON_MATHUTIL_H_
+﻿#ifndef PHYCORE_MATHUTIL_H_
+#define PHYCORE_MATHUTIL_H_
 
 #include <cmath>
 #include <cfloat>
 #include <cstdint>
 #include <algorithm>
-#include <octoon/runtime/platform.h>
+#include <phycore/runtime/platform.h>
 
-namespace octoon
+namespace phycore
 {
 	namespace math
 	{
@@ -291,14 +291,14 @@ namespace octoon
 			return *reinterpret_cast<std::uint64_t*>(&fp);
 		}
 
-		OCTOON_EXPORT void randomize() noexcept;
-		OCTOON_EXPORT void randomize(unsigned int) noexcept;
-		OCTOON_EXPORT int random(int min, int max) noexcept;
-		OCTOON_EXPORT float random(float min, float max) noexcept;
-		OCTOON_EXPORT double random(double min, double max) noexcept;
+		PHYCORE_EXPORT void randomize() noexcept;
+		PHYCORE_EXPORT void randomize(unsigned int) noexcept;
+		PHYCORE_EXPORT int random(int min, int max) noexcept;
+		PHYCORE_EXPORT float random(float min, float max) noexcept;
+		PHYCORE_EXPORT double random(double min, double max) noexcept;
 
-		OCTOON_EXPORT std::uint32_t morton2(std::uint32_t x, std::uint32_t y) noexcept;
-		OCTOON_EXPORT std::uint32_t morton3(std::uint32_t x, std::uint32_t y, std::uint32_t z) noexcept;
+		PHYCORE_EXPORT std::uint32_t morton2(std::uint32_t x, std::uint32_t y) noexcept;
+		PHYCORE_EXPORT std::uint32_t morton3(std::uint32_t x, std::uint32_t y, std::uint32_t z) noexcept;
 	}
 }
 

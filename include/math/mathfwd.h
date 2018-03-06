@@ -1,11 +1,11 @@
-#ifndef OCTOON_MATHFWD_H_
-#define OCTOON_MATHFWD_H_
+#ifndef PHYCORE_MATHFWD_H_
+#define PHYCORE_MATHFWD_H_
 
 #include <vector>
 
-#include <octoon/math/mathutil.h>
+#include <phycore/math/mathutil.h>
 
-namespace octoon
+namespace phycore
 {
 	namespace math
 	{

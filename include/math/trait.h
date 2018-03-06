@@ -1,9 +1,9 @@
-#ifndef OCTOON_MATH_TRAIT_H_
-#define OCTOON_MATH_TRAIT_H_
+#ifndef PHYCORE_MATH_TRAIT_H_
+#define PHYCORE_MATH_TRAIT_H_
 
 #include <string>
 
-namespace octoon
+namespace phycore
 {
 	namespace math
 	{

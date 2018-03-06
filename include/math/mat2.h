@@ -1,10 +1,10 @@
-#ifndef OCTOON_MATRIX2X2_H_
-#define OCTOON_MATRIX2X2_H_
+#ifndef PHYCORE_MATRIX2X2_H_
+#define PHYCORE_MATRIX2X2_H_
 
-#include <octoon/math/vector2.h>
-#include <octoon/math/quat.h>
+#include <phycore/math/vector2.h>
+#include <phycore/math/quat.h>
 
-namespace octoon
+namespace phycore
 {
 	namespace math
 	{

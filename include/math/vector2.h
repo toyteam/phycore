@@ -1,10 +1,10 @@
-#ifndef OCTOON_VECTOR2_H_
-#define OCTOON_VECTOR2_H_
+#ifndef PHYCORE_VECTOR2_H_
+#define PHYCORE_VECTOR2_H_
 
-#include <octoon/math/trait.h>
-#include <octoon/math/mathfwd.h>
+#include <phycore/math/trait.h>
+#include <phycore/math/mathfwd.h>
 
-namespace octoon
+namespace phycore
 {
 	namespace math
 	{

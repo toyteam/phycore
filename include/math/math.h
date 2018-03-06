@@ -1,12 +1,12 @@
-#ifndef OCTOON_MATH_H_
-#define OCTOON_MATH_H_
+#ifndef PHYCORE_MATH_H_
+#define PHYCORE_MATH_H_
 
-#include <octoon/math/mat2.h>
-#include <octoon/math/mat3.h>
-#include <octoon/math/mat4.h>
-#include <octoon/math/vector2.h>
-#include <octoon/math/vector3.h>
-#include <octoon/math/vector4.h>
-#include <octoon/math/quat.h>
+#include <phycore/math/mat2.h>
+#include <phycore/math/mat3.h>
+#include <phycore/math/mat4.h>
+#include <phycore/math/vector2.h>
+#include <phycore/math/vector3.h>
+#include <phycore/math/vector4.h>
+#include <phycore/math/quat.h>
 
 #endif
